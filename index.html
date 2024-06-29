@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SY Tao's Developer Hub</title>
+        <meta name=""keywords" content="SY Tao's Developer Hub"/>
+        <meta charset="utf-8"/>
+        <style type="text/css">
+            body{
+                background-color: #333;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+            }
+            h1{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 50px;
+                color: white;
+                text-align: center;
+                text-transform: capitalize;
+              }
+            h2{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                text-transform: capitalize;
+            }
+        </style>
+        <script>
+            var bill=10;
+            if (bill>5) {
+                alert("你很棒");
+            }
+            function checknumber(){
+                var input = document.getElementById('number').value;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Welcom to SY Tao's Developer Hub!!</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com">Search</a></li>
+                <li><a href="https://www.purdue.edu">Purdue</a></li>
+            </ul>
+        </nav>
+        <h2>Introduction</h2>
+        <p>&nbsp;&nbsp;&nbsp;Name: Shenyue(Bill) Tao<br/>&nbsp;&nbsp;&nbsp;Education: BS in sciense Computer and Information Technology Purdue University</p>
+        <input type="text" id="number" name="number" placeholder="plz enter a numer">
+        <button onclick="checknumber()">submit</button>
+    </body>
+</html>
